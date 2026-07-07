@@ -80,19 +80,16 @@ button a {
     font-weight: bold;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin: 0 auto;
+.sections-row { 
+    text-align: center; 
 }
 
-.section-1,
-.section-2 {
-    flex: 0 1 280px;
-    padding: 20px;
+.section-1, .section-2 {
+    display: inline-block;
+    width: 160px;
+    margin: 10px;
+    vertical-align: top;
+    text-align: center;
 }
 
 footer {
