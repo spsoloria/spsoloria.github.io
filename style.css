@@ -31,6 +31,7 @@ header {
     height: 150px;
 }
 
+/*Search bar setup*/
 .search-box {
     display: flex;
     align-items: center;
@@ -73,9 +74,6 @@ main {
     flex: 1;
     padding: 40px;
     background-color: white;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 20px;
 }
 
 .welcome-section {
@@ -85,6 +83,7 @@ main {
     justify-content: center;
 }
 
+/*product card section in homepage*/
 .product-cards-section {
     display: flex;
     justify-content: space-between;
@@ -155,6 +154,77 @@ main p {
     font-weight: bold;
 }
 
+/* Product Page setup */
+.products-page {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.products-page h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.category-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.category-row {
+    display: grid;
+    grid-template-columns: 280px 1fr 60px;
+    align-items: center;
+    padding: 35px 20px;
+    border-bottom: 1px solid #ddd;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.category-row:hover {
+    background: #f8f8f8;
+}
+
+.category-row:hover h3 {
+    color: #962525;
+}
+
+.category-row h3 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.shoe-preview {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.shoe-preview img {
+    width: 400px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.category-row:hover .shoe-preview img {
+    transform: scale(1.05);
+}
+
+.category-row i {
+    font-size: 42px;
+    justify-self: end;
+    color: #111;
+    transition: 0.3s;
+}
+
+.category-row:hover i {
+    color: #962525;
+    transform: translateX(8px);
+}
+
+/*Contact page setup*/
 .contact-page{
     padding:60px;
 }
@@ -250,6 +320,7 @@ a {
     font-weight: bold;
 
 }
+
 footer {
     background-color: #222;
     color: white;

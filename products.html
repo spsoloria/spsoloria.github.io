@@ -7,14 +7,23 @@
     <title>SydeKicks</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
     <header class="top-container">
         <div class="logo">
-            <img src="SydeKicks.svg" alt="SydeKicks Logo">
+            <a href="index.html">
+                <img src="SydeKicks.svg" alt="SydeKicks Logo">
+            </a>
         </div>
-        <h1>Products</h1>
+        <div class="search-box">
+            <input type="text" placeholder="Search for shoes, brands, etc...">
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -24,8 +33,65 @@
         </nav>
     </header>
 
-    <main class="main-container">
-        
+    <main class="products-page">
+        <h1>Products</h1>
+        <a href="bballshoes.html" class="category-link">
+
+            <div class="category-row">
+
+                <h3>Basketball Shoes</h3>
+
+                <div class="shoe-preview">
+                    <img src="bball.svg" alt="Basketball Shoe">
+                    <img src="bball2.svg" alt="Basketball Shoe">
+                    <img src="bball3.svg" alt="Basketball Shoe">
+                </div>
+
+                <i class="fa-solid fa-chevron-right"></i>
+
+            </div>
+
+        </a>
+
+        <!-- Lifestyle -->
+
+        <a href="lifestyle.html" class="category-link">
+
+            <div class="category-row">
+
+                <h3>Lifestyle</h3>
+
+                <div class="shoe-preview">
+                    <img src="lifestyle.svg" alt="Lifestyle Shoe">
+                    <img src="lifestyle2.svg" alt="Lifestyle Shoe">
+                    <img src="lifestyle3.svg" alt="Lifestyle Shoe">
+                </div>
+
+                <i class="fa-solid fa-chevron-right"></i>
+
+            </div>
+
+        </a>
+
+        <!-- Clogs -->
+
+        <a href="clogs.html" class="category-link">
+
+            <div class="category-row">
+
+                <h3>Clogs</h3>
+
+                <div class="shoe-preview">
+                    <img src="clogs.svg" alt="Clogs">
+                    <img src="clogs2.svg" alt="Clogs">
+                    <img src="clogs3.svg" alt="Clogs">
+                </div>
+
+                <i class="fa-solid fa-chevron-right"></i>
+
+            </div>
+
+        </a>
     </main>
 
     <footer>
