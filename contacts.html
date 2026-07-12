@@ -7,6 +7,9 @@
     <title>SydeKicks</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 
 <body>
@@ -14,7 +17,6 @@
         <div class="logo">
             <img src="SydeKicks.svg" alt="SydeKicks Logo">
         </div>
-        <h1>Contacts</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -23,15 +25,83 @@
             </ul>
         </nav>
     </header>
+    <main class="contact-page">
+        <main class="contact-page">
 
-    <main class="main-container">
-        <h2>Welcome to SydeKicks</h2>
-        <p>Kicks that stand by your syde.</p>
+            <div class="contact-title">
+                <h2>Contact Us</h2>
+                <p>Have questions or need assistance? Reach out to us!</p>
+            </div>
+
+            <section class="contact-content">
+
+                <div class="contact-info">
+
+                    <div class="info-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <div class="info-text">
+                            <h3>+63 966 405 6184</h3>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div class="info-text">
+                            <h3>support@sydekicks.com</h3>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div class="info-text">
+                            <h3>Alley 27 Project 6</h3>
+                            <p>Quezon City, Philippines</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="contact-form">
+
+                    <h2>Send Us a Message</h2>
+
+                    <form id="contactForm">
+
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                        <textarea id="message" name="message" rows="8" placeholder="Your Message" required></textarea>
+
+                        <button type="submit" class="button">
+                            Submit Message
+                        </button>
+
+                    </form>
+
+                    <p id="successMessage"></p>
+
+                </div>
+
+            </section>
+
+        </main>
     </main>
 
     <footer>
         For educational purposes only.
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
