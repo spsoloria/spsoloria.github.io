@@ -11,8 +11,8 @@ body {
 header {
     background-color: #111;
     color: white;
-    padding: 20px 40px;
     display: flex;
+    padding: 0px 40px;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
@@ -26,7 +26,7 @@ header {
 
 .logo img {
     width: auto;
-    height: 50px;
+    height: 150px;
 }
 
 .search-box {
@@ -71,10 +71,31 @@ main {
     flex: 1;
     padding: 40px;
     background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
 }
 
-main h2 {
+.welcome-section {
+    padding: 40px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-cards-section {
+    padding: 40px;
+    background-color: #fafafa;
+}
+
+.welcome-section h2 {
     font-size: 60px;
+    margin-top:-20px;
+}
+
+.welcome-section p {
+    font-size: 20px;
+    margin-top:-20px;
 }
 
 main p {
