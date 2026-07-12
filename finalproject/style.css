@@ -72,7 +72,7 @@ main {
     padding: 40px;
     background-color: white;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
     gap: 20px;
 }
 
@@ -84,8 +84,45 @@ main {
 }
 
 .product-cards-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
     padding: 40px;
     background-color: #fafafa;
+}
+
+.product-card {
+    flex: 1;
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    margin-bottom: -20px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.product-card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .welcome-section h2 {
