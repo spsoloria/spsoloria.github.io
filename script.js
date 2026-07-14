@@ -20,3 +20,20 @@ if (contactForm) {
     });
 
 }
+
+/*Try reserve button */
+document.addEventListener("DOMContentLoaded", function () {
+    // Select all reserve buttons
+    const reserveButtons = document.querySelectorAll(".reserve-btn");
+
+    reserveButtons.forEach(button => {
+        button.addEventListener("click", function () {
+            // Toggle reserved state
+            button.classList.toggle("reserved");
+            button.textContent = button.classList.contains("reserved")
+                ? "Reserved"
+                : "Reserve";
+        });
+    });
+});
+

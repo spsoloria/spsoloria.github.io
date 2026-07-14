@@ -386,11 +386,32 @@ main {
 }
 
 .price {
-    background: #c40000;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     font-weight: bold;
     padding: 12px;
+}
+
+.reserve-btn {
+    display: inline-flex;
+    width: 100%;
+    padding: 25px;
+    background-color: #962525;
+    border-radius: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+
+.reserved {
+    background-color: #555;
+    /* new color when reserved */
+    color: #fff;
 }
 
 a {
