@@ -260,7 +260,7 @@ const products = [
         name: "Birkenstock Boston Suede Clogs",
         brand: "Birkenstock",
         category: "Clogs",
-        price: "₱5,499",
+        price: "₱11,990",
         image: "birken.svg",
         page: "clogs.html"
     },
@@ -269,7 +269,7 @@ const products = [
         name: "Birkenstock Boston Natural Leather Black",
         brand: "Birkenstock",
         category: "Clogs",
-        price: "₱6,799",
+        price: "₱9,990",
         image: "birken2.svg",
         page: "clogs.html"
     },
@@ -278,7 +278,7 @@ const products = [
         name: "Birkenstock Boston EVA Light Grey",
         brand: "Birkenstock",
         category: "Clogs",
-        price: "₱5,999",
+        price: "₱4,990",
         image: "birken3.svg",
         page: "clogs.html"
     },
@@ -290,7 +290,7 @@ const products = [
         name: "Outland Springfield Clog Navy Blue NB",
         brand: "Outland",
         category: "Clogs",
-        price: "₱5,599",
+        price: "₱2,076",
         image: "outland.svg",
         page: "clogs.html"
     },
@@ -299,7 +299,7 @@ const products = [
         name: "Outland Springfield Clog Black",
         brand: "Outland",
         category: "Clogs",
-        price: "₱6,299",
+        price: "₱2,076",
         image: "outland2.svg",
         page: "clogs.html"
     },
@@ -308,7 +308,7 @@ const products = [
         name: "Outland Springfield Clog Taupe Suede Brown",
         brand: "Outland",
         category: "Clogs",
-        price: "₱5,999",
+        price: "₱2,076",
         image: "outland3.svg",
         page: "clogs.html"
     }
