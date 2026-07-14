@@ -422,7 +422,6 @@ main {
     box-sizing: border-box;
 }
 
-
 .reserved {
     background-color: #555;
     /* new color when reserved */
@@ -444,11 +443,47 @@ footer {
     text-align: center;
 }
 
+/*search page setup*/
+
+.search-page {
+
+    padding: 40px;
+
+}
+
+.search-page h1 {
+
+    text-align: center;
+
+    font-size: 60px;
+
+}
+
+#resultTitle {
+
+    text-align: center;
+
+    font-size: 22px;
+
+    margin-bottom: 40px;
+
+}
+
+#searchResults {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 30px;
+
+}
+
 @media (max-width: 992px) {
+
     header {
-        justify-content: center;
-        gap: 20px;
-        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .search-box {
@@ -462,6 +497,26 @@ footer {
 
     .contact-content {
         grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-form {
+        margin-top: 20px;
+    }
+
+    .info-card {
+        padding: 25px;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
     }
 
     .bproduct-grid {
@@ -471,6 +526,7 @@ footer {
     .category-row {
         grid-template-columns: 200px 1fr 40px;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -586,38 +642,4 @@ footer {
     .contact-title h2 {
         font-size: 32px;
     }
-}
-
-.search-page{
-
-    padding:40px;
-
-}
-
-.search-page h1{
-
-    text-align:center;
-
-    font-size:60px;
-
-}
-
-#resultTitle{
-
-    text-align:center;
-
-    font-size:22px;
-
-    margin-bottom:40px;
-
-}
-
-#searchResults{
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-
-    gap:30px;
-
 }
