@@ -361,6 +361,9 @@ main {
     text-align: center;
     overflow: hidden;
     transition: .3s;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .bproduct-card:hover {
@@ -372,21 +375,33 @@ main {
     width: 100%;
     height: 180px;
     object-fit: contain;
+    padding: 15px;
 }
 
 .bproduct-card h3 {
-    margin: 10px 0 5px;
+    margin: 10px 15px;
     font-size: 22px;
+    min-height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bproduct-card p {
     margin: 0 15px 15px;
-    font-size: 15px;
     color: #555;
+    min-height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .price {
-    color: rgb(0, 0, 0);
+    margin-top: auto;
+
+    color: black;
     font-size: 30px;
     font-weight: bold;
     padding: 12px;
@@ -571,4 +586,38 @@ footer {
     .contact-title h2 {
         font-size: 32px;
     }
+}
+
+.search-page{
+
+    padding:40px;
+
+}
+
+.search-page h1{
+
+    text-align:center;
+
+    font-size:60px;
+
+}
+
+#resultTitle{
+
+    text-align:center;
+
+    font-size:22px;
+
+    margin-bottom:40px;
+
+}
+
+#searchResults{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
 }
